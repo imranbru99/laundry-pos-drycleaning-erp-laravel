@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#archBg)" />
+
+  <!-- Title -->
+  <text x="500" y="45" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="24" font-weight="900">
+    Londi-Shop Modular Architecture &amp; Package Ecosystem
+  </text>
+  <text x="500" y="70" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">
+    Configurable ON/OFF Modules with Filament v3, Laravel 13 &amp; Specialized Open Source Engines
+  </text>
+
+  <!-- Layer 1: Front Office / Public & Customer Layer -->
+  <g transform="translate(60, 100)">
+    <rect width="880" height="90" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="2" />
+    <text x="24" y="30" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">LAYER 1: PUBLIC &amp; CUSTOMER PORTAL (BLADE + ALPINE.JS + TAILWIND)</text>
+
+    <!-- Pills inside Layer 1 -->
+    <rect x="24" y="44" width="160" height="32" rx="8" fill="#0f172a" />
+    <text x="36" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">🏠 Landing Showcase</text>
+
+    <rect x="194" y="44" width="160" height="32" rx="8" fill="#0f172a" />
+    <text x="206" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">💰 Price Estimator</text>
+
+    <rect x="364" y="44" width="160" height="32" rx="8" fill="#0f172a" />
+    <text x="376" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">🔍 Live Order Tracker</text>
+
+    <rect x="534" y="44" width="160" height="32" rx="8" fill="#0f172a" />
+    <text x="546" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">🛵 Doorstep Pickup</text>
+
+    <rect x="704" y="44" width="150" height="32" rx="8" fill="#0f172a" />
+    <text x="716" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">🤖 AI Stain Guide</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="500" y1="190" x2="500" y2="220" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4" />
+
+  <!-- Layer 2: Filament Backoffice & Modular Core -->
+  <g transform="translate(60, 220)">
+    <rect width="880" height="130" rx="16" fill="#1e293b" stroke="#8b5cf6" stroke-width="2" />
+    <text x="24" y="28" fill="#c084fc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">LAYER 2: FILAMENT ADMIN ERP &amp; MODULAR ENGINE (STORE SETTINGS)</text>
+
+    <!-- Grid of 5 Module Cards -->
+    <g transform="translate(24, 40)">
+      <rect width="160" height="70" rx="10" fill="#0f172a" stroke="#334155" />
+      <text x="12" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">⚡ Fast POS &amp; Cash</text>
+      <text x="12" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">80mm Receipt Print</text>
+      <text x="12" y="58" fill="#10b981" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">[module_pos: ON]</text>
+
+      <rect x="170" y="0" width="160" height="70" rx="10" fill="#0f172a" stroke="#334155" />
+      <text x="182" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">🏷️ Cloth Barcode</text>
+      <text x="182" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Rack slot assignment</text>
+      <text x="182" y="58" fill="#10b981" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">[module_tags: ON]</text>
+
+      <rect x="340" y="0" width="160" height="70" rx="10" fill="#0f172a" stroke="#334155" />
+      <text x="352" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">🛵 Rider Pool</text>
+      <text x="352" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Pickup &amp; Delivery</text>
+      <text x="352" y="58" fill="#10b981" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">[module_rider: ON]</text>
+
+      <rect x="510" y="0" width="160" height="70" rx="10" fill="#0f172a" stroke="#334155" />
+      <text x="522" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">📦 Raw Materials</text>
+      <text x="522" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Detergent &amp; Poly stock</text>
+      <text x="522" y="58" fill="#10b981" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">[module_stock: ON]</text>
+
+      <rect x="680" y="0" width="150" height="70" rx="10" fill="#0f172a" stroke="#334155" />
+      <text x="692" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">📊 Dues &amp; Ledger</text>
+      <text x="692" y="42" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Income, Expense, P&amp;L</text>
+      <text x="692" y="58" fill="#10b981" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">[module_accts: ON]</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="500" y1="350" x2="500" y2="380" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4" />
+
+  <!-- Layer 3: Specialized Package Integrations -->
+  <g transform="translate(60, 380)">
+    <rect width="880" height="105" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+    <text x="24" y="25" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">LAYER 3: SPECIALIZED PACKAGIST PACKAGE INTEGRATIONS</text>
+
+    <g transform="translate(24, 38)">
+      <!-- Package 1 -->
+      <rect width="115" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="10" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">⚡ drutogoti</text>
+      <text x="10" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Route Query Cache</text>
+
+      <!-- Package 2 -->
+      <rect x="122" y="0" width="115" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="132" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">📊 admin-panel</text>
+      <text x="132" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Metrics &amp; Widgets</text>
+
+      <!-- Package 3 -->
+      <rect x="244" y="0" width="115" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="254" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">🤖 ai-catalog</text>
+      <text x="254" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Scrape Garment Rates</text>
+
+      <!-- Package 4 -->
+      <rect x="366" y="0" width="115" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="376" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">🧠 ai-hub</text>
+      <text x="376" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Stain &amp; Fabric Care</text>
+
+      <!-- Package 5 -->
+      <rect x="488" y="0" width="125" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="498" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">⏱️ attendance-hub</text>
+      <text x="498" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Biometric Machine</text>
+
+      <!-- Package 6 -->
+      <rect x="620" y="0" width="110" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="630" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">📄 unicode-pdf</text>
+      <text x="630" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Bangla Thermal PDF</text>
+
+      <!-- Package 7 -->
+      <rect x="736" y="0" width="110" height="52" rx="8" fill="#0f172a" stroke="#10b981" />
+      <text x="746" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">🔗 universal-slug</text>
+      <text x="746" y="36" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="8">Bangla Slugs</text>
+    </g>
+  </g>
+</svg>

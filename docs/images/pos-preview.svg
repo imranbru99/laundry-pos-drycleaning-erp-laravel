@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="posBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#posBg)" />
+
+  <!-- Top App Bar -->
+  <rect x="0" y="0" width="1000" height="64" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="24" y="16" width="36" height="36" rx="10" fill="#2563eb" />
+  <text x="70" y="40" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="900">
+    Londi<tspan fill="#38bdf8">POS</tspan> <tspan font-size="13" fill="#94a3b8" font-weight="bold">| Dhanmondi Branch #01</tspan>
+  </text>
+  
+  <rect x="520" y="16" width="190" height="34" rx="8" fill="#0f172a" stroke="#334155" />
+  <text x="535" y="38" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">💵 Cash Drawer: ৳14,850</text>
+
+  <rect x="724" y="16" width="140" height="34" rx="8" fill="#10b981" />
+  <text x="742" y="38" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">+ New Order (F2)</text>
+
+  <circle cx="940" cy="32" r="18" fill="#334155" />
+  <text x="933" y="38" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">CR</text>
+
+  <!-- Left: Garment Grid Selection (65% width) -->
+  <g transform="translate(24, 84)">
+    <!-- Category Tabs -->
+    <rect x="0" y="0" width="110" height="36" rx="10" fill="#2563eb" />
+    <text x="18" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Men's Wear</text>
+
+    <rect x="118" y="0" width="125" height="36" rx="10" fill="#334155" />
+    <text x="132" y="23" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Women's Wear</text>
+
+    <rect x="251" y="0" width="135" height="36" rx="10" fill="#334155" />
+    <text x="265" y="23" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Traditional &amp; Silk</text>
+
+    <rect x="394" y="0" width="135" height="36" rx="10" fill="#334155" />
+    <text x="408" y="23" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Bedding &amp; Winter</text>
+
+    <!-- 6 Interactive Garment Cards -->
+    <g transform="translate(0, 52)">
+      <!-- Item 1: Cotton Shirt -->
+      <g transform="translate(0, 0)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="35" font-size="28">👔</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">সুতি শার্ট (Shirt)</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Wash &amp; Steam Press</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 45</text>
+      </g>
+
+      <!-- Item 2: Panjabi -->
+      <g transform="translate(202, 0)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#2563eb" stroke-width="2" />
+        <rect x="120" y="8" width="56" height="20" rx="6" fill="#2563eb" />
+        <text x="128" y="22" fill="#ffffff" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">POPULAR</text>
+        <text x="16" y="35" font-size="28">✨</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">পাঞ্জাবি (Panjabi)</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Cotton / Semi-silk</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 70</text>
+      </g>
+
+      <!-- Item 3: Suit Blazer -->
+      <g transform="translate(404, 0)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="35" font-size="28">🧥</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">স্যুট / ব্লেজার (Suit)</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">2-piece Dry Clean</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 450</text>
+      </g>
+
+      <!-- Item 4: Jamdani Sharee -->
+      <g transform="translate(0, 134)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="35" font-size="28">🥻</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">ঢাকাই জামদানি শাড়ি</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Special Drum Clean</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 450</text>
+      </g>
+
+      <!-- Item 5: Formal Pant -->
+      <g transform="translate(202, 134)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="35" font-size="28">👖</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">ফরমাল প্যান্ট (Pant)</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Wash &amp; Steam Press</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 50</text>
+      </g>
+
+      <!-- Item 6: Blanket Double -->
+      <g transform="translate(404, 134)">
+        <rect width="186" height="120" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="35" font-size="28">❄️</text>
+        <text x="16" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">ভারী কম্বল (ডাবল)</text>
+        <text x="16" y="85" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Anti-microbial wash</text>
+        <text x="16" y="106" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="black">৳ 350</text>
+      </g>
+    </g>
+
+    <!-- Barcode Scanner Input Bar -->
+    <g transform="translate(0, 325)">
+      <rect width="590" height="48" rx="12" fill="#0f172a" stroke="#334155" />
+      <text x="18" y="28" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">🔍 বারকোড স্ক্যান করুন বা কাপড়ের নাম টাইপ করুন (F3)...</text>
+    </g>
+  </g>
+
+  <!-- Right: Cart & Fast Bill (35% width) -->
+  <g transform="translate(640, 84)" filter="url(#cardShadow)">
+    <rect width="336" height="490" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    
+    <!-- Customer Info -->
+    <rect x="16" y="16" width="304" height="50" rx="10" fill="#0f172a" />
+    <text x="30" y="36" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Fahim Ahmed (01711000000)</text>
+    <text x="30" y="54" fill="#10b981" font-family="system-ui, sans-serif" font-size="11">Customer Dues: ৳ 0 (Regular)</text>
+
+    <!-- Cart Items list -->
+    <g transform="translate(16, 76)">
+      <!-- Item 1 -->
+      <rect width="304" height="42" rx="8" fill="#0f172a" />
+      <text x="12" y="26" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">1x Panjabi (Dry Clean)</text>
+      <text x="240" y="26" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">৳ 180</text>
+
+      <!-- Item 2 -->
+      <rect y="48" width="304" height="42" rx="8" fill="#0f172a" />
+      <text x="12" y="74" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">1x Jamdani Sharee (Drum Clean)</text>
+      <text x="240" y="74" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">৳ 450</text>
+
+      <!-- Item 3 -->
+      <rect y="96" width="304" height="42" rx="8" fill="#0f172a" />
+      <text x="12" y="122" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">1x Formal Pant (Wash &amp; Press)</text>
+      <text x="240" y="122" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">৳ 60</text>
+    </g>
+
+    <!-- Bill Totals -->
+    <g transform="translate(16, 235)">
+      <rect width="304" height="110" rx="10" fill="#0f172a" />
+      <text x="16" y="28" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Subtotal (3 items):</text>
+      <text x="240" y="28" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">৳ 690</text>
+
+      <text x="16" y="52" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Delivery / Express:</text>
+      <text x="240" y="52" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">FREE</text>
+
+      <line x1="16" y1="64" x2="288" y2="64" stroke="#334155" />
+      <text x="16" y="92" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="black">Grand Total:</text>
+      <text x="220" y="92" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="black">৳ 690</text>
+    </g>
+
+    <!-- Payment Buttons -->
+    <g transform="translate(16, 360)">
+      <rect width="70" height="36" rx="8" fill="#10b981" />
+      <text x="18" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CASH</text>
+
+      <rect x="76" y="0" width="70" height="36" rx="8" fill="#db2777" />
+      <text x="90" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">bKash</text>
+
+      <rect x="152" y="0" width="70" height="36" rx="8" fill="#ea580c" />
+      <text x="166" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Nagad</text>
+
+      <rect x="228" y="0" width="76" height="36" rx="8" fill="#64748b" />
+      <text x="244" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">DUE (বাকি)</text>
+    </g>
+
+    <!-- Big Print & Save Action Button -->
+    <rect x="16" y="412" width="304" height="48" rx="12" fill="#2563eb" />
+    <text x="75" y="442" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">🖨️ প্রিন্ট টোকেন ও বিল (F9)</text>
+  </g>
+</svg>
