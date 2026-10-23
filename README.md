@@ -55,7 +55,21 @@ Customers track their laundry live through an animated 6-stage lifecycle using e
 
 ---
 
-### 3. Modular System Architecture
+### 3. Doorstep Pickup & Delivery Wizard
+Step-by-step customer booking wizard with area/zone dispatch, slot selection, and automated rider notification.
+
+![Pickup Booking Wizard](docs/images/pickup-booking-preview.svg)
+
+---
+
+### 4. AI Fabric Doctor & Stain Diagnosis
+Interactive knowledge hub powered by `imrandevbd/laravel-ai-hub` with customized care guidelines for Jamdani, Katan, and stain emergency treatments (curry, oil, tea, ink).
+
+![AI Fabric Care](docs/images/ai-stain-preview.svg)
+
+---
+
+### 5. Modular System Architecture
 Configurable module engine where store owners can turn ON or OFF any operational feature based on their business model.
 
 ![System Architecture](docs/images/architecture.svg)

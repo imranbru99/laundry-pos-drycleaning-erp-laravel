@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="480" fill="url(#aiBg)" />
+
+  <g transform="translate(60, 30)">
+    <!-- Container -->
+    <rect width="780" height="420" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2" />
+
+    <!-- Top bar -->
+    <rect width="780" height="60" rx="20" fill="#0f172a" />
+    <text x="24" y="38" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="900">
+      🤖 AI Hub Stain Diagnosis &amp; Fabric Care Doctor (/fabric-care)
+    </text>
+    <rect x="610" y="16" width="146" height="28" rx="8" fill="#6366f1" />
+    <text x="622" y="34" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">AI-HUB POWERED</text>
+
+    <!-- Grid: Selector vs Output -->
+    <g transform="translate(24, 80)">
+      <!-- Left: Stain Pills Selection -->
+      <rect width="280" height="310" rx="14" fill="#0f172a" stroke="#334155" />
+      <text x="16" y="30" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">SELECT STAIN TYPE:</text>
+
+      <!-- Active: Curry / Turmeric -->
+      <rect x="16" y="46" width="248" height="48" rx="10" fill="#d97706" />
+      <text x="30" y="75" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">🍛 হলুদ ও তরকারির দাগ</text>
+      <text x="210" y="75" fill="#fef3c7" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ACTIVE</text>
+
+      <!-- Tea / Coffee -->
+      <rect x="16" y="104" width="248" height="44" rx="10" fill="#1e293b" />
+      <text x="30" y="131" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">☕ চা ও কফির দাগ (Tea/Coffee)</text>
+
+      <!-- Oil / Grease -->
+      <rect x="16" y="158" width="248" height="44" rx="10" fill="#1e293b" />
+      <text x="30" y="185" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">🛢️ তেল ও চর্বির দাগ (Oil/Grease)</text>
+
+      <!-- Ink -->
+      <rect x="16" y="212" width="248" height="44" rx="10" fill="#1e293b" />
+      <text x="30" y="239" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">🖋️ কালির দাগ (Ballpoint Ink)</text>
+
+      <rect x="16" y="266" width="248" height="34" rx="8" fill="#2563eb" />
+      <text x="64" y="288" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">🛵 Book Stain Expert</text>
+
+      <!-- Right: AI Diagnostic Output -->
+      <g transform="translate(300, 0)">
+        <rect width="432" height="310" rx="14" fill="#0f172a" stroke="#d97706" stroke-width="1.5" />
+        
+        <text x="20" y="32" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="15" font-weight="black">
+          হলুদ ও তরকারির কঠিন দাগ (Turmeric &amp; Curry Stain)
+        </text>
+
+        <!-- Do -->
+        <rect x="20" y="52" width="392" height="70" rx="8" fill="#064e3b" stroke="#059669" />
+        <text x="32" y="74" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">✅ প্রাথমিক করণীয় (First Aid Treatment):</text>
+        <text x="32" y="94" fill="#ecfdf5" font-family="system-ui, sans-serif" font-size="11">দাগ লাগার সাথে সাথে টিস্যু দিয়ে অতিরিক্ত তেল শুষে নিন।</text>
+        <text x="32" y="110" fill="#ecfdf5" font-family="system-ui, sans-serif" font-size="11">ভুলেও গরম পানি বা সাধারণ ডিটারজেন্ট দিয়ে ঘষবেন না।</text>
+
+        <!-- Don't -->
+        <rect x="20" y="132" width="392" height="64" rx="8" fill="#450a0a" stroke="#dc2626" />
+        <text x="32" y="152" fill="#f87171" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">❌ যা ভুলেও করবেন না (Never Do):</text>
+        <text x="32" y="172" fill="#fef2f2" font-family="system-ui, sans-serif" font-size="11">রোদে সরাসরি শুকাবেন না—তাপ পেলে কারকিউমিন স্থায়ী দাগে</text>
+        <text x="32" y="188" fill="#fef2f2" font-family="system-ui, sans-serif" font-size="11">পরিণত হয়ে কাপড়ের ভেতরের আঁশে চিরতরে বসে যায়।</text>
+
+        <!-- Treatment -->
+        <rect x="20" y="206" width="392" height="84" rx="8" fill="#172554" stroke="#2563eb" />
+        <text x="32" y="228" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">🔬 লন্ড্রি শপের ল্যাব ট্রিটমেন্ট (Londi Special):</text>
+        <text x="32" y="248" fill="#eff6ff" font-family="system-ui, sans-serif" font-size="11">আমাদের বিশেষ এনজাইম বেসড প্রোটিন ও কারকিউমিন রিমুভার,</text>
+        <text x="32" y="266" fill="#eff6ff" font-family="system-ui, sans-serif" font-size="11">কোল্ড ড্রাই ওয়াশ ও ড্রাম স্পটিং গান দিয়ে মূল রঙ অটুট রেখে</text>
+        <text x="32" y="282" fill="#eff6ff" font-family="system-ui, sans-serif" font-size="11">দাগ সম্পূর্ণ নির্মূল করা হয়।</text>
+      </g>
+    </g>
+  </g>
+</svg>
