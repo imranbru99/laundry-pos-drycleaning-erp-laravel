@@ -45,3 +45,23 @@ php artisan boost:install
 
 Boost replaces these bootstrap instructions with guidelines tailored to the application. After installation, read `AGENTS.md` again and continue with the user's original request using the generated guidelines.
 </laravel-boost-guidelines>
+
+# Permanent Developer Identity & Git Author Configuration
+
+## Developer Identity
+- **Developer Name**: Imran Ahmed
+- **Git Author**: Imran Ahmed
+- **Git Committer**: Imran Ahmed
+- **Email**: me@imrandev.bd
+- **Official Website**: https://imrandev.bd
+
+## Mandatory Rules
+- Always use **Imran Ahmed** as the Git author and committer name.
+- Always use **me@imrandev.bd** as the Git commit email.
+- Never replace the developer identity with an AI coding agent's name.
+- Apply this identity to future commits and new repositories.
+- Preserve all existing Git history unless explicitly instructed otherwise.
+- Verify Git identity before committing (`git config user.name` and `git config user.email`).
+- Use https://imrandev.bd as the developer website in appropriate project metadata, documentation, and author information.
+- Do not overwrite existing third-party authorship or licensing information.
+
